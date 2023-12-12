@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    html,body {
+        height: 100%;
+    }
+
+    body{
+        text-align: center;
+    }
+    .yellow{
+        background-color: yellow;
+    }
+   
+
+    button{
+        background-color: rgb(224, 241, 241);
+        height: 50px;
+        cursor: pointer;
+        border-radius: 10px;
+        margin: 20px;
+    }
+
+  
+   .all-box{
+       display: flex;
+       justify-content: center;
+       margin-top: 50px;
+
+       
+   }
+
+   .box{
+    margin-left: 10px;
+   }
+
+    .kotak{
+        width: 30px;
+        height: 30px;
+    }
+
+    .red{
+        background-color: red;
+        display: inline-block;
+    }
+
+    .green{
+        background-color: green;
+        margin-left: 20px;
+    }
+
+    .blue{
+        background-color: blue;
+        margin-left: 20px;
+    }
+
+
+
+
+
+</style>
+<body>
+  
+<h1>Berubah Warna</h1>
+<button type="button" id="changeBtn" onclick="change()">Ubah Warna</button>
+
+<br><br>
+
+<section class="all-box">
+
+<div class="kotak red"></div>
+<input class='box' type="range" name="sRed" min="0" max="255"></input>
+
+<div class="kotak green"></div>
+<input class='box' type="range" name="sGreen" min="0" max="255"></input>
+
+<div class="kotak blue"></div>
+<input class='box' type="range" name="sBlue" min="0" max="255"></input>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+    <script src="berubahWarna.js"></script>
+</body>
+</html>

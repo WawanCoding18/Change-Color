@@ -1,0 +1,77 @@
+.row{
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+
+}
+
+.html{
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+}
+.head{
+    background-color: aliceblue;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.head{
+    background-color: aliceblue;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.body{
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .html:hover{
+    background-color: rgb(212, 223, 233);
+  }
+  .head:hover{
+    background-color: rgb(212, 223, 233);
+  }
+  .body:hover{
+    background-color: rgb(212, 223, 233);
+  }
+  
